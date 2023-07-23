@@ -83,7 +83,14 @@ h5{
   animation-iteration-count: infinite;
     text-align:center;
 }
-
 img{
   width:80px;
+  position:relative;
+}
+
+.images{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content:center;
 }
