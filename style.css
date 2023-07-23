@@ -1,0 +1,88 @@
+body {
+    font-size: 15pt;
+    background-image:url('bg.jpeg');
+    background-size:100%;
+}
+/*ulo*/
+
+@keyframes Done{
+  0%{
+    border:1.5px solid aqua;
+  }
+  50%{
+    border:1.5px solid green;
+  }
+  100%{
+    border:1.5px solid aqua;
+  }
+}
+
+@keyframes Dont{
+  0%{
+    color:green;
+  }
+  50%{
+    color:darkgray;
+  }
+  100%{
+    color:green;
+  }
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  animation-name:Dont;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.Done{
+  animation-name: Done;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  border-radius: 10px;
+}
+
+@keyframes Ples{
+  0%{
+    font-size:100px;
+  }
+  50%{
+    font-size: 90px;
+  }
+  100%{
+    font-size: 100px;
+  }
+}
+
+p{
+  text-align: center;
+  animation-name:Ples;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Nah{
+  0%{
+    text-shadow: 2px 2px blue;
+  }
+  50%{
+    text-shadow: 3px 2px green;
+  }
+  100%{
+    text-shadow:2px 2px blue;
+  }
+}
+
+h5{
+  color:aqua;
+  text-indent: 1cm;
+  animation-name: Nah;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+img{
+  width:80px;
+}
