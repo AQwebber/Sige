@@ -86,6 +86,7 @@ h5{
 img{
   width:80px;
   position:relative;
+    filter:blur(1px);
 }
 
 .images{
